@@ -29,14 +29,60 @@ AndroidX libraries that are recommended.
 
 1. The view layer is a calendar view. 
 2. The backend layer is a SQL database.
-3. The main view consists of a calendar for a week, with "next" and "previous" buttons. 
+3. The main view consists of a calendar for a week, with "next" and "previous" buttons.
 4. You can also use swipe to go to another week.
 5. Any events that are shown are shown inside the appropriate day box.
 6. One can click a "+" button inside a date box to enter an event.
 7. Event consists of a title, location, description and time schedule.
-8. Adding or editing an event happen on another page. 
+8. Adding or editing an event happen on another page.
 9. Keeping track of when an event was created and updated.
-10. Adding, editing, or removing an event persists in a sqlite database in the app. 
+10. Adding, editing, or removing an event persists in a sqlite database in the app.
 11. No Authentication is required.
-12. I used the Room library to simply read and write to the Sqlite database using Entity and Dao objects.
-13. Will trigger event notification before the schedule
+12. I used the Room library to simply read and write to the Sqlite database using Entity and Dao
+    objects.
+13. Will trigger event reminder notification automatically
+
+# Demo App
+
+<table style="width:100%">
+  <tr>
+    <th>Screenshot 1: Initial home page</th>
+    <th>Screenshot 2: Clicked a "+" button inside a date box to enter an event</th>
+  </tr>
+  <tr>
+    <td><img src="github_assets/1.png"/></td>
+    <td><img src="github_assets/2.png"/></td>
+  </tr>
+  <tr>
+    <th>Screenshot 3: Add new event screen</th>
+    <th>Screenshot 4: Popup dialog after add an Event</th>
+  </tr>
+  <tr>
+    <td><img src="github_assets/3.png"/></td>
+    <td><img src="github_assets/4.png"/></td>
+  </tr>
+  <tr>
+    <th>Screenshot 5: Showing newly added event on the home page</th>
+    <th>Screenshot 6: Edit an event</th>
+  </tr>
+  <tr>
+    <td><img src="github_assets/5.png"/></td>
+    <td><img src="github_assets/6.png"/></td>
+  </tr>
+  <tr>
+    <th>Screenshot 7: New event by copy the existing event</th>
+    <th>Screenshot 8: Warnings for unsaved changes</th>
+  </tr>
+  <tr>
+    <td><img src="github_assets/7.png"/></td>
+    <td><img src="github_assets/8.png"/></td>
+  </tr>
+  <tr>
+    <th>Screenshot 9: Trigger an event reminder notification</th>
+    <th>Screenshot 10: Delete an event</th>
+  </tr>
+  <tr>
+    <td><img src="github_assets/9.png"/></td>
+    <td><img src="github_assets/10.png"/></td>
+  </tr>
+  </table>
