@@ -39,11 +39,11 @@ android {
         viewBinding true
     }
     lintOptions {
-        abortOnError false        // true by default
-        checkAllWarnings false
+        abortOnError true          // true by default
+        checkAllWarnings true
         checkReleaseBuilds false
-        ignoreWarnings true       // false by default
-        quiet true                // false by default
+        ignoreWarnings false       // false by default
+        quiet false                // false by default
     }
 }
 
@@ -56,7 +56,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.viewpager2:viewpager2:1.1.0-beta01'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'

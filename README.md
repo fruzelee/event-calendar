@@ -31,10 +31,12 @@ AndroidX libraries that are recommended.
 2. The backend layer is a SQL database.
 3. The main view consists of a calendar for a week, with "next" and "previous" buttons. 
 4. You can also use swipe to go to another week.
-5. Any events that are shown are shown inside the appropriate day box. One can click a "+" button
-inside a date box to enter an event, which consists of a title, location, description and time schedule.
-6. Adding or editing an event can happen on another page. 
-7. Keeping track of when an event was created and updated.
-8. Adding, editing, or removing an event persists in a sqlite database in the app. 
-9. "No Authentication is required." 
-10. I used the Room library to simply read and write to the Sqlite database using Entity and Dao objects.
+5. Any events that are shown are shown inside the appropriate day box.
+6. One can click a "+" button inside a date box to enter an event.
+7. Event consists of a title, location, description and time schedule.
+8. Adding or editing an event happen on another page. 
+9. Keeping track of when an event was created and updated.
+10. Adding, editing, or removing an event persists in a sqlite database in the app. 
+11. No Authentication is required.
+12. I used the Room library to simply read and write to the Sqlite database using Entity and Dao objects.
+13. Will trigger event notification before the schedule
