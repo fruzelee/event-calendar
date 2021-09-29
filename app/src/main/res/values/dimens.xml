@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="tiny_margin">2dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="medium_margin">8dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="bigger_margin">20dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
+    <dimen name="normal_icon_size">48dp</dimen>
+    <dimen name="drag_select_hotspot_height">56dp</dimen>
+    <dimen name="small_text_size">10sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="bigger_text_size">16sp</dimen>
+    <dimen name="actionbar_text_size">20sp</dimen>
+    <dimen name="weekly_view_row_height">60dp</dimen>
+    <dimen name="weekly_view_minimal_event_height">10dp</dimen>
+    <dimen name="weekly_view_now_height">10dp</dimen>
+    <dimen name="weekly_view_min_day_label">60dp</dimen>
+    <dimen name="day_text_size">17sp</dimen>
+</resources>

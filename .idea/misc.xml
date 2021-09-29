@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckstyleConfigurable">
+    <option name="suppFilterFilename" value="" />
+    <option name="suppCommentFilter" value="false" />
+    <option name="offComment" value="CHECKSTYLE\:OFF" />
+    <option name="onComment" value="CHECKSTYLE\:ON" />
+    <option name="checkFormat" value=".*" />
+    <option name="messageFormat" value="" />
+    <option name="checkCPP" value="true" />
+    <option name="checkC" value="true" />
+    <option name="suppNearbyCommentFilter" value="false" />
+    <option name="snCommentFormat" value="SUPPRESS CHECKSTYLE (\w+)" />
+    <option name="snCheckFormat" value="$1" />
+    <option name="snMessageFormat" value="" />
+    <option name="snInfluenceFormat" value="0" />
+    <option name="snCheckCPP" value="true" />
+    <option name="snCheckC" value="true" />
+    <option name="pathToUserRulesConfiguration" value="" />
+    <option name="pathToJarWithRules" value="" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/drawable/ic_baseline_linear_scale_24.xml" value="0.2375" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/drawable/ic_baseline_power_input_24.xml" value="0.2375" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/drawable/ic_baseline_vertical_align_center_24.xml" value="0.2375" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/activity_event.xml" value="0.16" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/activity_main.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/activity_select_time_zone.xml" value="0.10572916666666667" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/all_day_events_holder_line.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/date_picker.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/dialog_custom_interval_picker.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/dialog_delete_event.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/dialog_message.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/dialog_radio_group.xml" value="0.10572916666666667" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/dialog_title.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/divider.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/fragment_week.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/fragment_week_holder.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/item_select_time_zone.xml" value="0.10572916666666667" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/week_all_day_event_marker.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/week_event_marker.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/week_grid_item.xml" value="0.10572916666666667" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/week_now_marker.xml" value="0.10572916666666667" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/weekly_view_day_column.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/weekly_view_day_letter.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/layout/weekly_view_hour_textview.xml" value="0.22135416666666666" />
+        <entry key="..\:/assignment/assesment/Jeeon/CODE BACKUP/Event Calender 1.1/app/src/main/res/menu/menu_event.xml" value="0.21794871794871795" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="QAPlugAnalysisUIOptions">
+    <option name="FILTER_RESOLVED_ITEMS" value="false" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>

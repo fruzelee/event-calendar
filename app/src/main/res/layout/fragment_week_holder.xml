@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/week_view_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/week_view_hours_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/week_view_hours_scrollview"
+        android:background="@drawable/stroke_bottom_right"
+        android:importantForAccessibility="no" />
+
+    <com.github.fruzelee.eventcalendar.views.MyScrollView
+        android:id="@+id/week_view_hours_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/week_view_days_count_divider"
+        android:layout_below="@+id/week_view_hours_divider"
+        android:background="@drawable/stroke_right"
+        android:overScrollMode="never"
+        android:paddingTop="@dimen/medium_margin"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/week_view_hours_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </com.github.fruzelee.eventcalendar.views.MyScrollView>
+
+    <com.github.fruzelee.eventcalendar.views.MyViewPager
+        android:id="@+id/week_view_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/week_view_days_count_divider"
+        android:layout_toEndOf="@+id/week_view_hours_scrollview" />
+
+    <include
+        android:id="@+id/week_view_days_count_divider"
+        layout="@layout/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_above="@+id/btnNext" />
+
+    <com.github.fruzelee.eventcalendar.views.MyFloatingActionButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:contentDescription="@string/new_event"
+        android:src="@drawable/ic_arrow_left_vector"
+        app:backgroundTint="@color/color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/pressed_item_foreground" />
+
+    <com.github.fruzelee.eventcalendar.views.MyFloatingActionButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:contentDescription="@string/new_event"
+        android:rotation="180"
+        android:src="@drawable/ic_arrow_left_vector"
+        app:backgroundTint="@color/color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="@color/pressed_item_foreground"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

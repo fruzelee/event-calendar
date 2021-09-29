@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">Event Calendar</string>
+    <string name="app_launcher_name">Event Calendar</string>
+    <string name="regular_event">Regular event</string>
+    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_app_found">No valid app found</string>
+    <!-- Event -->
+    <string name="edit_event">Edit Event</string>
+    <string name="new_event">New Event</string>
+    <string name="duplicate_event">Duplicate event</string>
+    <string name="title_empty">Title cannot be empty</string>
+    <string name="end_before_start">The event cannot end earlier than it starts</string>
+    <string name="please_fill_location">Please fill in a location to be shown on a map</string>
+    <string name="public_event_notification_text">An event is upcoming</string>
+    <!-- Dates -->
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="monday_letter">M</string>
+    <string name="tuesday_letter">T</string>
+    <string name="wednesday_letter">W</string>
+    <string name="thursday_letter">T</string>
+    <string name="friday_letter">F</string>
+    <string name="saturday_letter">S</string>
+    <string name="sunday_letter">S</string>
+
+    <string name="monday_short">Mon</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday_short">Sun</string>
+
+    <!-- EveCal sync -->
+    <string name="insufficient_permissions">You are not allowed to write in the selected calendar</string>
+    <string name="caldav_event_not_found">Event not found. Please enable EveCal sync for the appropriate calendar in the app settings.</string>
+    <!-- Event details -->
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="all_day">All-day</string>
+
+    <!-- Weekly view -->
+    <string name="week">Week</string>
+    <string name="title">Title</string>
+
+    <!-- Event Repetition -->
+    <string name="event_is_repeatable">The event is repeatable</string>
+    <string name="selection_contains_repetition">The selection contains repeating events</string>
+    <string name="delete_one_only">Delete the selected occurrence only</string>
+    <string name="delete_future_occurrences">Delete this and all future occurrences</string>
+    <string name="delete_all_occurrences">Delete all occurrences</string>
+
+    <!-- Confirmation dialog -->
+    <string name="proceed_with_deletion">Are you sure you want to proceed with the deletion?</string>
+    <!-- Are you sure you want to delete 5 items? -->
+    <!-- Are you sure you want to move 3 items into the Recycle Bin? -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- For example: Time remaining till the alarm goes off: 6 hours, 5 minutes -->
+    <string name="reminder_triggers_in">Time remaining till the reminder triggers:\n%s</string>
+    <string name="reminder_warning">Please make sure the reminders work properly before relying on them. Check your device battery and notification settings, if there is nothing blocking the reminders, or killing the app in the background.</string>
+
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="save_before_closing">You have unsaved changes. Save before exit?</string>
+    <string name="discard">Discard</string>
+
+    <!-- Themes -->
+    <string name="custom">Custom</string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <string name="saving">Saving…</string>
+    <string name="an_error_occurred">An error occurred: %s</string>
+
+    <!-- Alarms -->
+    <string name="snooze">Snooze</string>
+    <string name="no_reminder">No reminder</string>
+    <string name="at_start">At start</string>
+    <string name="during_day_at_hh_mm">During the day at hh:mm</string>
+    <string name="during_day_at">During the day at %02d:%02d</string>
+
+    <!-- For example: Event reminder: 3 minutes before -->
+    <plurals name="seconds_before">
+        <item quantity="one">%d second before</item>
+        <item quantity="other">%d seconds before</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minute before</item>
+        <item quantity="other">%d minutes before</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d hour before</item>
+        <item quantity="other">%d hours before</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d day before</item>
+        <item quantity="other">%d days before</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d week before</item>
+        <item quantity="other">%d weeks before</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d month before</item>
+        <item quantity="other">%d months before</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d year before</item>
+        <item quantity="other">%d years before</item>
+    </plurals>
+
+    <!-- Times -->
+    <string name="tomorrow">Tomorrow</string>
+    <string name="seconds_raw">seconds</string>
+    <string name="minutes_raw">minutes</string>
+    <string name="hours_raw">hours</string>
+    <string name="days_raw">days</string>
+    <string name="search">Search</string>
+    <string name="contentDescription">image</string>
+
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+
+    <!-- For example: Postpone reminder by 3 minutes -->
+    <plurals name="by_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+
+</resources>
