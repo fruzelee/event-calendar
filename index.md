@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Welcome to Event Calendar
 
-You can use the [editor on GitHub](https://github.com/fruzelee/event-calendar/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[![Platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
+[![Gradle Version](https://img.shields.io/badge/gradle-7.0.2-green.svg)](https://docs.gradle.org/current/release-notes)
+[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://github.com/KotlinBy/awesome-kotlin)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome to **Event Calendar.**
+**Event Calendar** is a basic application in Android using Kotlin.
 
-### Markdown
+# Specifications
+1. Used Android Studio to create the project.
+2. Target Sdk is Android 11.
+3. Kotlin is used as code in to the app.
+4. Code maintains best practices & solid principle guideline.
+5. Used standard Human Interface Guidelines to design the app.
+6. App is work in Landscape mode too.
+7. Added comments on Code where necessary.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Necessary Technology
+1. Android Jetpack
+2. Kotlin
+3. Sqlite Database
+4. Room (AndroidX)
+5. View Binding
 
-```markdown
-Syntax highlighted code block
+# App Overview
+This is a very basic Event Calendar application in Android using Kotlin along with some 
+AndroidX libraries that are recommended. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fruzelee/event-calendar/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. The view layer is a calendar view. 
+2. The backend layer is a SQL database.
+3. The main view consists of a calendar for a week, with "next" and "previous" buttons.
+4. You can also use swipe to go to another week.
+5. Any events that are shown are shown inside the appropriate day box.
+6. One can click a "+" button inside a date box to enter an event.
+7. Event consists of a title, location, description and time schedule.
+8. Adding or editing an event happen on another page.
+9. Keeping track of when an event was created and updated.
+10. Adding, editing, or removing an event persists in a sqlite database in the app.
+11. No Authentication is required.
+12. I used the Room library to simply read and write to the Sqlite database using Entity and Dao
+    objects.
+13. Will trigger event reminder notification automatically
